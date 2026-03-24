@@ -63,12 +63,7 @@ export function Footer() {
                     </div>
                 </div>
 
-                {/* Cross-linking */}
-                <div className="mt-10 pt-8 border-t border-blue-700">
-                    <p className="text-blue-500 text-xs text-center">
-                        Voir aussi : <Link href="https://www.cout-borne-recharge.fr" className="text-blue-400 hover:text-amber-300 transition-colors">Recharger sa voiture grâce au solaire</Link> · <Link href="https://www.cout-chauffage-energie.fr" className="text-blue-400 hover:text-amber-300 transition-colors">Production d&apos;eau chaude solaire</Link>
-                    </p>
-                </div>
+
             </div>
 
             {/* Bottom bar */}
