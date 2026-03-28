@@ -54,6 +54,7 @@ export function Footer() {
                         <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">Informations</h4>
                         <ul className="space-y-2.5">
                             <li><Link href="/" className="text-blue-300 hover:text-amber-300 text-sm transition-colors">Accueil</Link></li>
+                            <li><Link href="/simulateur-solaire" className="text-amber-400 hover:text-amber-300 text-sm font-semibold transition-colors">⚡ Simulateur Solaire</Link></li>
                             <li><Link href="/marques" className="text-blue-300 hover:text-amber-300 text-sm transition-colors">Marques</Link></li>
                             <li><Link href="/marques/sunpower" className="text-blue-300 hover:text-amber-300 text-sm transition-colors">SunPower</Link></li>
                             <li><Link href="/marques/enphase" className="text-blue-300 hover:text-amber-300 text-sm transition-colors">Enphase</Link></li>

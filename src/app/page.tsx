@@ -60,7 +60,7 @@ export default function HomePage() {
                                 Panneaux solaires photovoltaïques — Simulez votre rentabilité et recevez 3 devis gratuits d&apos;installateurs QualiPV.
                             </p>
                             <div className="flex flex-wrap gap-4 items-center">
-                                <Link href="/devis">
+                                <Link href="/simulateur-solaire">
                                     <Button className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-7 rounded-xl shadow-lg text-lg">
                                         Simuler ma production <ArrowRight className="ml-2 h-5 w-5" />
                                     </Button>

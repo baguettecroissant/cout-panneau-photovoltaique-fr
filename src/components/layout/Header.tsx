@@ -3,12 +3,13 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Sun, Menu, X, BookOpen, Award, HelpCircle, MapPin } from "lucide-react";
+import { Sun, Menu, X, BookOpen, Award, HelpCircle, MapPin, Calculator } from "lucide-react";
 
 export function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const navLinks = [
+        { href: "/simulateur-solaire", label: "Simulateur", icon: Calculator },
         { href: "/guides", label: "Guides", icon: BookOpen },
         { href: "/marques", label: "Marques", icon: Award },
         { href: "/annuaire", label: "Annuaire", icon: MapPin },
